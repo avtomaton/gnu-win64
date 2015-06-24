@@ -1,0 +1,14 @@
+zlib-1.2.3\projects\visualc13 > 
+open zlib.sln by visual studio 2013
+
+libpng-1.2.37-src\projects\visualc13 >
+open libpng.sln by visual studio 2013
+
+tiff-3.8.2-src >
+options in nmake.opt:
+ZLIBDIR
+ZLIB_INCLUDE
+INCL_PLATFORM
+LIBS_PLATFORM
+nmake /f Makefile.vc
+
